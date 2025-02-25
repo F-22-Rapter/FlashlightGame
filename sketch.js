@@ -14,7 +14,7 @@ function draw() {
 
   if(mouseIsPressed ){
     if(battery >0){
-      battery = battery - 0.1
+      battery = battery - 1
     }
 
     push() //creates one mask
